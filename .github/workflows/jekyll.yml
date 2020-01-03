@@ -1,2 +1,10 @@
-- name: Jekyll Action
-  uses: helaili/jekyll-action@1.0
+name: Jekyll deploy to github pages
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Jekyll Action
+      uses: helaili/jekyll-action@1.0
