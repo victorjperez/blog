@@ -28,7 +28,7 @@ baseurl: "/writing" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vplocked
 github_username: victorjperez
-
+destination: ./build
 # Build settings
 theme: minima
 paginate: 7
