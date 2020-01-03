@@ -1,0 +1,198 @@
+---
+---
+
+@import url("https://fonts.googleapis.com/css?family=Cardo|Fira+Code&display=swap");
+body {
+  font-family: "Cardo", serif;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.page {
+  z-index: 0;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+  a {
+    text-decoration: none;
+    font-style: italic;
+    color: inherit;
+    &:hover {
+      text-shadow: 1px 1px 0 #8254eb, 2px 2px 0 white, 3px 3px 0 black;
+      transition: 0.1s;
+    }
+  }
+}
+.titleBlock {
+  padding: 0;
+  margin-top: 100px;
+  h1 {
+    text-shadow: 2px 2px 0 rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-size: 90px;
+    font-weight: normal;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
+  h2 {
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    padding: 0;
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 35px;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
+}
+.post-list {
+  list-style-type: none;
+  margin-top: 35px;
+  padding: 0;
+}
+.post-preview {
+  margin-bottom: 25px;
+  padding-bottom: 5px;
+  p {
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 22px;
+    a {
+      text-transform: uppercase;
+      &:hover {
+        text-shadow: 1px 1px 0 #8254eb, 2px 2px 0 white, 3px 3px 0 black;
+        transition: 0.1s;
+      }
+    }
+  }
+  .read-more {
+    float: left;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+}
+
+.blogImage {
+  position: relative;
+  padding-bottom: 20px;
+  img {
+    object-fit: cover;
+    height: 225px;
+    width: 100%;
+    filter: brightness(30%);
+  }
+  .post-link {
+    position: absolute;
+    text-transform: uppercase;
+    top: 40%;
+    left: 50%;
+    color: white;
+    line-height: 1.2;
+    text-shadow: 2px 2px 0 black;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 90%;
+    font-style: unset;
+    &:hover {
+      text-shadow: 1px 1px 0 black, 2px 2px 0 #8254eb, 3px 3px 0 white,
+        4px 4px 0 black;
+      transition: 0.1s;
+    }
+  }
+  .post-categories {
+    text-transform: uppercase;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    text-shadow: 2px 2px 0 black;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+}
+.pagination {
+  font-style: italic;
+  font-size: 22px;
+  margin-bottom: 20px;
+  a:hover {
+    text-shadow: 1px 1px 0 #8254eb, 2px 2px 0 white, 3px 3px 0 black;
+    transition: 0.1s;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+  .topic {
+    height: 18em;
+  }
+  .topic a {
+    width: 48%;
+    margin: 6px auto;
+  }
+
+  a.seeMore {
+    height: 9em;
+  }
+}
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .post-date {
+    text-align: left;
+  }
+  .page {
+    margin: 0 auto;
+    max-width: 75%;
+  }
+  .post-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .post-preview:not(:first-child) {
+    max-width: 32%;
+    img {
+      height: 300px;
+    }
+    p {
+      max-width: 100%;
+    }
+    .post-link {
+      font-size: 30px;
+    }
+    .post-categories {
+      font-size: 20px;
+    }
+  }
+
+  .post-preview {
+    img {
+      height: 600px;
+      width: 100%;
+    }
+    p {
+      max-width: 50%;
+    }
+  }
+  .blogImage {
+    .post-link {
+      font-size: 55px;
+    }
+    .post-categories {
+      font-size: 30px;
+    }
+  }
+}
+footer {
+  hr {
+    width: 100%;
+  }
+  p {
+    padding-left: 20px;
+  }
+}

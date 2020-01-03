@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="categories">
+	<center>
+		<h1>{{ page.title }}</h1>
+	</center>
+
+	<hr noshade width="200">
+	<ul class="post-list">
+		{% for post in site.categories[page.category] %}
+		<li>
+			{% include postpreview.html %}
+		</li>
+		<hr noshade width="200"> {% endfor %}
+	</ul>
+	***
+</div>
