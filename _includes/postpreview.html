@@ -1,5 +1,6 @@
 <div class="blogImage">
-  <img src="{{ site.url }}/{{ site.baseurl }}/assets/img/{{ post.image }}" />
+  <img src={{ "/assets/img/" | absolute_url }}/{{ post.image }}/>
+  <!-- <img src="{{ site.url }}/{{ site.baseurl }}/assets/img/{{ post.image }}"> -->
   <a class="post-link" href="{{ post.url | relative_url }}"
     >{{ post.title | escape }}</a
   >
