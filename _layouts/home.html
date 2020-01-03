@@ -6,10 +6,14 @@ layout: hometemplate
 {{ content }}
 
 <ul class="post-list">
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts %} {% if forloop.first == true %}
+  <li class="post-preview first">
+    {% include postpreview.html %}
+  </li>
+  {% else %}
   <li class="post-preview">
     {% include postpreview.html %}
   </li>
-  {% endfor %}
+  {% endif %} {% endfor %}
 </ul>
 {% include pageselector.html %}
