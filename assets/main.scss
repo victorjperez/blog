@@ -223,6 +223,14 @@ h3 {
     }
   }
 }
+.absolute-hr {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+.h2-with-absolute-hr {
+  margin-top: 70px;
+}
 footer {
   hr {
     width: 100%;
