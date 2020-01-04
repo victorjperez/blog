@@ -2,9 +2,11 @@
 ---
 
 @import url("https://fonts.googleapis.com/css?family=Cardo|Fira+Code&display=swap");
+
 body {
   font-family: "Cardo", serif;
   background-color: white;
+
   padding: 0;
   margin: 0;
 }
@@ -28,12 +30,12 @@ body {
 }
 .titleBlock {
   padding: 0;
-  margin-top: 100px;
+  margin-top: 50px;
   h1 {
     text-shadow: 2px 2px 0 rgb(0, 0, 0);
     padding: 0;
     margin: 0;
-    font-size: 90px;
+    font-size: 50px;
     font-weight: normal;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 0.5px;
@@ -42,6 +44,7 @@ body {
 }
 h2,
 h2 a {
+  font-size: 20px;
   text-transform: uppercase;
   text-shadow: 1px 1px 0 rgb(0, 0, 0);
   padding: 0;
@@ -49,7 +52,6 @@ h2 a {
   margin-bottom: 20px;
   font-style: italic;
   font-weight: normal;
-  font-size: 30px;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
@@ -58,13 +60,12 @@ h3 {
   padding: 0;
   margin: 15px 0;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 19px;
 }
 .post-content {
   text-align: left;
-  max-width: 60%;
-  margin: 0 auto;
   margin-bottom: 25px;
+  padding: 0 10px;
 }
 .post-image {
   max-width: 60%;
@@ -76,10 +77,9 @@ h3 {
 }
 .post-preview {
   margin-bottom: 25px;
-  margin-right: 1.3%;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
   p {
-    padding: 0;
+    padding: 0 10px;
     text-align: left;
     margin: 0 auto;
     line-height: 30px;
@@ -112,7 +112,7 @@ h3 {
   padding-bottom: 20px;
   img {
     object-fit: cover;
-    height: 225px;
+    height: 280px;
     width: 100%;
     filter: brightness(30%);
   }
@@ -161,17 +161,63 @@ h3 {
   margin-top: 20px;
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
-  // .topic {
-  //   height: 18em;
-  // }
-  // .topic a {
-  //   width: 48%;
-  //   margin: 6px auto;
-  // }
+  .page {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .post-content {
+    p {
+      padding: 0 17%;
+    }
+  }
+  .post-preview {
+    p {
+      padding: 0 17%;
+    }
+  }
+  .blogImage {
+    img {
+      height: 280px;
+    }
+  }
+  .titleBlock {
+    h1 {
+      font-size: 75px;
+    }
+  }
+  h2,
+  h2 a {
+    font-size: 28px;
+  }
+}
+.absolute-hr {
+  position: absolute;
+  left: 0;
+  width: 99vw;
+}
+.h2-with-absolute-hr {
+  margin-top: 55px;
+}
+footer {
+  hr {
+    width: 99vw;
+  }
+  p {
+    padding-left: 20px;
+  }
+}
 
-  // a.seeMore {
-  //   height: 9em;
-  // }
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .post-preview {
+    p {
+      padding: 0 7%;
+    }
+  }
+  .post-content {
+    p {
+      padding: 0 7%;
+    }
+  }
 }
 @media only screen and (min-width: 900px) {
   /* For desktop: */
@@ -182,18 +228,38 @@ h3 {
     margin: 0 auto;
     max-width: 75%;
   }
+  .post-content {
+    max-width: 60%;
+    margin: 0 auto;
+  }
   .post-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
+  .titleBlock {
+    margin-top: 100px;
+    h1 {
+      font-size: 90px;
+    }
+  }
+  h2,
+  h2 a {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 24px;
+  }
   .post-preview {
     max-width: 32%;
+    padding-bottom: 5px;
+    margin-right: 1.3%;
     img {
       height: 300px;
     }
     p {
+      padding: 0;
       max-width: 100%;
     }
     .post-link {
@@ -222,20 +288,12 @@ h3 {
       }
     }
   }
-}
-.absolute-hr {
-  position: absolute;
-  left: 0;
-  width: 100%;
-}
-.h2-with-absolute-hr {
-  margin-top: 55px;
-}
-footer {
-  hr {
-    width: 100%;
+  .absolute-hr {
+    width: 99.8vw;
   }
-  p {
-    padding-left: 20px;
+  footer {
+    hr {
+      width: 99.8vw;
+    }
   }
 }

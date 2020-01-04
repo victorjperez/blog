@@ -8,13 +8,16 @@ layout: default
     flex-direction: column;
     margin: 0 auto;
     margin-top: 25px;
+    width: 100%;
   }
   p {
     text-align: left;
+    align-self: center;
+    padding: 0 7%;
   }
   img {
-    width: 35%;
-    align-self: flex-start;
+    width: 60%;
+    align-self: center;
   }
   @media only screen and (min-width: 900px) {
     .about-info {
@@ -22,9 +25,12 @@ layout: default
       flex-direction: row;
     }
     img {
+      align-self: flex-start;
+      width: 35%;
       margin-right: 25px;
     }
     p {
+      padding: 0;
     }
   }
 </style>

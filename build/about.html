@@ -9,7 +9,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 40px;
   border-top: 0.5px solid black;
   border-bottom: 0.5px solid black;
@@ -96,13 +96,16 @@ nav a:nth-of-type(1):hover {
     flex-direction: column;
     margin: 0 auto;
     margin-top: 25px;
+    width: 100%;
   }
   p {
     text-align: left;
+    align-self: center;
+    padding: 0 7%;
   }
   img {
-    width: 35%;
-    align-self: flex-start;
+    width: 60%;
+    align-self: center;
   }
   @media only screen and (min-width: 900px) {
     .about-info {
@@ -110,9 +113,12 @@ nav a:nth-of-type(1):hover {
       flex-direction: row;
     }
     img {
+      align-self: flex-start;
+      width: 35%;
       margin-right: 25px;
     }
     p {
+      padding: 0;
     }
   }
 </style>
