@@ -2,24 +2,44 @@
 layout: default
 ---
 
-<article class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-
-    <h4>
+<article class="page">
+  <header class="titleBlock">
+    <h2>
       {% for topic in page.categories %}
-      <a href="/topic/{{ topic }}.html"> {{ topic }}</a>
+      <a href="{{ site.baseurl }}/topic/{{ topic }}"> {{ topic }}</a>
       <!-- logic for making sure "//" only prints between categories-->
       {% if page.categories.size > 1 %} {% unless forloop.index ==
-      page.categories.size %} // {% endunless %} {% endif %} {% endfor %}
-    </h4>
+      page.categories.size %}, {% endunless %} {% endif %} {% endfor %}
+    </h2>
+
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h3>By {{ page.author }}</h3>
+
+    <hr width="200" />
+    <img src={{ "/assets/img/" | relative_url }}{{ page.image }}
+    class="post-image"/>
+    <h3><u> {{ page.date | date: "%B %d, %Y" }}</u></h3>
   </header>
-  <hr noshade />
   <div class="post-content">
-    <div class="post-date">
-      {{ page.date | date_to_long_string }} • {{ page.author }}
-    </div>
     {{ content }}
   </div>
-  ***
+</div>
 </article>
+<hr width="100%" />
+  <h4>You May Also Enjoy</h4>
+
+  {% assign random = site.time | date: "%s%N" | modulo: site.posts.size %}
+  <h1>{{ site.posts[random].title }}</h1>
+
+
+  {% assign postCount = 1 %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% if post.categories[0] == page.categories[0] and postCount <= 3 %}
+        <li class="post-preview">
+          {% include postpreview.html %}
+        </li>
+        {% assign postCount = postCount | plus:1 %}
+      {% endif %}
+    {% endfor %}
+  </ul>

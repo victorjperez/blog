@@ -1,11 +1,12 @@
 ---
 layout: Page
-title:  "Engineering Station"
-date:   2018-03-21 00:50:34 -0400
-author: "Victor Perez"
+title: "Engineering Station"
+date: 2018-03-21 00:50:34 -0400
+author: "Victor J Perez III"
 categories: nonfiction
 image: "station.jpg"
 ---
+
 It was early October in the very recent year 2017, and I was standing at the PRT station thinking. The thoughts consumed me, sharply dulling all of my senses. Though the thoughts were focusing on a very bad thing, I strangely felt a neutral feeling while I unpacked each and every one of them.
 
 “Hey, do you remember me?”
@@ -14,7 +15,7 @@ Suddenly I could see. Before me stood a vaguely recognizable figure. After a sho
 
 “Yeah, aren’t you Victor? I remember you from Culturas.”
 
-Culturas: the student organization for hispanics. It was a name that beckoned the thoughts back.  Again, I paused to put them away. I responded. “How have you been? Haven’t seen you around in a while.”
+Culturas: the student organization for hispanics. It was a name that beckoned the thoughts back. Again, I paused to put them away. I responded. “How have you been? Haven’t seen you around in a while.”
 
 “I’ve been doing good, haven’t been to the club in a while sadly.” She paused. “Hey, you’re Puerto Rican right?”
 

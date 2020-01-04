@@ -1,8 +1,8 @@
 ---
 layout: Page
-title:  "Privacy and Propaganda"
-date:   2014-02-14 00:50:34 -0400
-author: "Victor Perez"
+title: "Privacy and Propaganda"
+date: 2014-02-14 00:50:34 -0400
+author: "Victor J Perez III"
 categories: [early works, tech, satire]
 image: "archive.jpg"
 excerpt_separator: <!--more-->

@@ -2,7 +2,7 @@
 layout: Page
 title: "Pah-scotch-way"
 date: 2018-01-24 00:50:34 -0400
-author: "Victor Perez"
+author: "Victor J Perez III"
 categories: nonfiction
 image: "cnf.jpg"
 ---

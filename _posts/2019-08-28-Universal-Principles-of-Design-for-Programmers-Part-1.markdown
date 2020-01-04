@@ -2,7 +2,7 @@
 layout: Page
 title: "Universal Principles of Design for Programmers: Part 1"
 date: 2019-08-28 00:50:34 -0400
-author: "Victor Perez"
+author: "Victor J Perez III"
 categories: [tech]
 image: "UPDFP_1.png"
 ---

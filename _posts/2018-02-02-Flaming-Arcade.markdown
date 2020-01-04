@@ -2,7 +2,7 @@
 layout: Page
 title: "Flaming Arcade"
 date: 2018-02-02 00:50:34 -0400
-author: "Victor Perez"
+author: "Victor J Perez III"
 categories: nonfiction
 image: "house.jpg"
 ---

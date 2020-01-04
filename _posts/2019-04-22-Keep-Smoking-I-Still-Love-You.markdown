@@ -2,7 +2,7 @@
 layout: Page
 title: "Keep Smoking, I Still Love You"
 date: 2019-04-22 06:42:34 -0400
-author: "Victor Perez"
+author: "Victor J Perez III"
 categories: [nonfiction]
 image: "porch.png"
 ---

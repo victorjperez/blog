@@ -5,7 +5,9 @@
     >{{ post.title | escape }}</a
   >
   <p class="post-categories">
-    {{ post.categories[0] }}
+    <a href="{{ site.baseurl }}/topic/{{ post.categories[0] }}"
+      >{{ post.categories[0] }}</a
+    >
   </p>
 </div>
 

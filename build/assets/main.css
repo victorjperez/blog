@@ -3,7 +3,7 @@ body { font-family: "Cardo", serif; background-color: white; padding: 0; margin:
 
 .page { z-index: 0; font-size: 22px; margin: 0; padding: 0; color: black; text-align: center; }
 
-.page a { text-decoration: none; font-style: italic; color: inherit; }
+.page a { text-decoration: none; font-style: italic; color: inherit; text-transform: uppercase; }
 
 .page a:hover { text-shadow: 1px 1px 0 #8254eb, 2px 2px 0 white, 3px 3px 0 black; transition: 0.1s; }
 
@@ -11,7 +11,13 @@ body { font-family: "Cardo", serif; background-color: white; padding: 0; margin:
 
 .titleBlock h1 { text-shadow: 2px 2px 0 black; padding: 0; margin: 0; font-size: 90px; font-weight: normal; -webkit-text-fill-color: white; /* Will override color (regardless of order) */ -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: black; }
 
-h2 { text-transform: uppercase; text-shadow: 1px 1px 0 black; padding: 0; margin-top: 20px; font-style: italic; font-weight: normal; font-size: 30px; -webkit-text-fill-color: white; /* Will override color (regardless of order) */ -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: black; }
+h2, h2 a { text-transform: uppercase; text-shadow: 1px 1px 0 black; padding: 0; margin-top: 20px; margin-bottom: 0; font-style: italic; font-weight: normal; font-size: 30px; -webkit-text-fill-color: white; /* Will override color (regardless of order) */ -webkit-text-stroke-width: 0.5px; -webkit-text-stroke-color: black; }
+
+h3 { padding: 0; margin: 15px 0; font-weight: normal; font-size: 24px; }
+
+.post-content { text-align: left; max-width: 60%; margin: 0 auto; margin-bottom: 25px; }
+
+.post-image { max-width: 60%; }
 
 .post-list { list-style-type: none; margin-top: 35px; padding: 0; }
 
@@ -38,6 +44,8 @@ h2 { text-transform: uppercase; text-shadow: 1px 1px 0 black; padding: 0; margin
 .blogImage .post-link:hover { text-shadow: 1px 1px 0 black, 2px 2px 0 #8254eb, 3px 3px 0 white, 4px 4px 0 black; transition: 0.1s; }
 
 .blogImage .post-categories { text-transform: uppercase; position: absolute; top: 60%; left: 50%; color: white; text-shadow: 2px 2px 0 black; transform: translate(-50%, -50%); font-size: 20px; }
+
+.blogImage .post-categories a { font-style: normal; }
 
 .pagination { font-style: italic; font-size: 22px; margin-bottom: 20px; }
 

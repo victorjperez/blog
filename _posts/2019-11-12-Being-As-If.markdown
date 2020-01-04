@@ -2,7 +2,7 @@
 layout: Page
 title: "Being As If"
 date: 2019-11-12 05:59:50 -0400
-author: "Victor J. Perez III"
+author: "Victor J Perez III"
 categories: [nonfiction]
 image: "beingasif.png"
 excerpt_separator: <!--more-->

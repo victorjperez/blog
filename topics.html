@@ -6,14 +6,14 @@ layout: default
   <h1>Topics</h1>
 </div>
 {% for topic in site.topics %}
-<h2><a href="{{ site.baseurl }}/topic/{{ topic }}.html">{{ topic }}</a></h2>
+<h2><a href="{{ site.baseurl }}/topic/{{ topic }}">{{ topic }}</a></h2>
 <hr width="200" />
 <div class="topic">
   <ul class="post-list">
     {% assign topicPosts = site.categories[topic].size %} {% for post in
     site.categories[topic] %} {% if forloop.index == 4 %} {% if topicPosts > 3
     %}
-    <a class="see-more" href="{{ site.baseurl }}/topic/{{ topic }}.html">
+    <a class="see-more" href="{{ site.baseurl }}/topic/{{ topic }}">
       <p>MORE ON {{ topic }} ⟶</p></a
     >
     {% break %} {% endif %} {% endif %}

@@ -1,8 +1,8 @@
 ---
 layout: Page
-title:  "Dota 2 Essay"
-date:   2014-02-09 00:50:34 -0400
-author: "Victor Perez"
+title: "Dota 2 Essay"
+date: 2014-02-09 00:50:34 -0400
+author: "Victor J Perez III"
 categories: [early works, video games]
 image: "archive.jpg"
 excerpt_separator: <!--more-->

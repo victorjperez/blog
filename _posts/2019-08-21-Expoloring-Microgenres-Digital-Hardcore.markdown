@@ -2,14 +2,12 @@
 layout: Page
 title: "Exploring Microgenres: Digital Hardcore"
 date: 2019-08-21 00:49:34 -0400
-author: "Victor Perez"
+author: "Victor J Perez III"
 categories: [music]
 image: "wireless.png"
 ---
 
 _This article was originally published for the Fall 2019 edition of WIRELESS, which can be found [here](https://victorjperez.github.io/wireless)_
-
-![WIRELESS FALL 2019]({{ site.url }}/{{ site.baseurl }}/assets/img/wireless.png)
 
 It can be argued that we are currently living in the era most accessible for electronic music. Anyone with access to a computer has an incredibly wide selection of free and paid digital audio workstations, alongside a plethora of other music production tools. With this has come an explosion of hard-to-categorize music that transcends traditional genres.
 

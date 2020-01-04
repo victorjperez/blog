@@ -2,7 +2,7 @@
 layout: Page
 title: "Mouth Mantra"
 date: 2019-11-12 05:50:50 -0400
-author: "Victor J. Perez III - II"
+author: "Victor J Perez III - II"
 categories: [nonfiction]
 image: "jaw.png"
 excerpt_separator: <!--more-->

@@ -2,7 +2,7 @@
 layout: Page
 title: "On U92 & The Slow Death of College Radio"
 date: 2019-09-03 00:50:34 -0400
-author: "Victor Perez"
+author: "Victor J Perez III"
 categories: [music, nonfiction]
 image: "u92death.png"
 ---

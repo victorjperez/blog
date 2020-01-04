@@ -2,7 +2,7 @@
 layout: Page
 title: "On Vestoj"
 date: 2019-11-12 05:50:37 -0400
-author: "Victor J. Perez III - II"
+author: "Victor J Perez III - II"
 categories: [nonfiction, fashion]
 image: "vestoj.png"
 excerpt_separator: <!--more-->

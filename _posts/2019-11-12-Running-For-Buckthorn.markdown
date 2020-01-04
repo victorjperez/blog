@@ -2,7 +2,7 @@
 layout: Page
 title: "Running For Buckthorn"
 date: 2019-11-12 05:50:54 -0400
-author: "Victor J. Perez III - I"
+author: "Victor J Perez III - I"
 categories: nonfiction
 image: "bands.png"
 excerpt_separator: <!--more-->

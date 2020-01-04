@@ -2,7 +2,7 @@
 layout: Page
 title: "Sisyphus"
 date: 2019-11-12 05:50:47 -0400
-author: "Victor J. Perez III - II"
+author: "Victor J Perez III - II"
 categories: [nonfiction, music]
 image: "sisyphus.png"
 excerpt_separator: <!--more-->
