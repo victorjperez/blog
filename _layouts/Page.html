@@ -7,7 +7,6 @@ layout: default
     <h2>
       {% for topic in page.categories %}
       <a href="{{ site.baseurl }}/topic/{{ topic }}"> {{ topic }}</a>
-      <!-- logic for making sure "//" only prints between categories-->
       {% if page.categories.size > 1 %} {% unless forloop.index ==
       page.categories.size %}, {% endunless %} {% endif %} {% endfor %}
     </h2>
@@ -26,7 +25,8 @@ layout: default
 </div>
 </article>
 <hr class="absolute-hr" >
-  <h2 class="h2-with-absolute-hr">Latest in {{ page.categories[0] }}</h2>
+<div class="related-posts">
+  <h2 class="h2-with-absolute-hr">Latest on {{ page.categories[0] }}</h2>
   {% assign postCount = 1 %}
   <ul class="post-list">
     {% for post in site.posts %}
@@ -38,3 +38,4 @@ layout: default
       {% endif %}
     {% endfor %}
   </ul>
+</div>

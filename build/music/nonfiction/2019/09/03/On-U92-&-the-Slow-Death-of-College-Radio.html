@@ -54,12 +54,20 @@ nav a:nth-of-type(1):hover {
   text-shadow: 1px 1px 0 black, 2px 2px 0 #8254EB, 3px 3px 0 white, 4px 4px 0 black;
   transition: .1s;
 }
-
+@media only screen and (max-height: 550px) {
+  nav {
+    position: absolute;
+  }
+}
 @media only screen and (min-width: 500px) and (max-width: 900px) {
+    nav a:nth-of-type(1) {
+    font-size: 0;
+  }
   nav a{ 
     margin-top: 1%;
   }
 }
+
 @media only screen and (min-width: 900px) {
   nav {
       height: 68px;
@@ -71,6 +79,23 @@ nav a:nth-of-type(1):hover {
     padding: 0 3%;
     margin-top: 1.2%;
     font-size: 20px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  nav a{ 
+    margin-top: 2%;
+  }
+  nav a:nth-of-type(1) {
+    font-size: 0;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  nav a{ 
+    margin-top: 1.7%;
+  }
+  nav a:nth-of-type(1) {
+      top: 14%;
+    font-size: 30px;
   }
 }
 </style>
@@ -95,10 +120,8 @@ nav a:nth-of-type(1):hover {
     <h2>
       
       <a href="/writing/topic/music"> music</a>
-      <!-- logic for making sure "//" only prints between categories-->
        ,   
       <a href="/writing/topic/nonfiction"> nonfiction</a>
-      <!-- logic for making sure "//" only prints between categories-->
          
     </h2>
 
@@ -129,7 +152,8 @@ nav a:nth-of-type(1):hover {
 </div>
 </article>
 <hr class="absolute-hr" >
-  <h2 class="h2-with-absolute-hr">Latest in music</h2>
+<div class="related-posts">
+  <h2 class="h2-with-absolute-hr">Latest on music</h2>
   
   <ul class="post-list">
     
@@ -228,6 +252,7 @@ nav a:nth-of-type(1):hover {
       
     
   </ul>
+</div>
     </main>
 
   </body>
