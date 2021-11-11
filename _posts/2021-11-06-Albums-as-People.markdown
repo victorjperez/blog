@@ -9,7 +9,7 @@ image: "uglyassbear.jpeg"
 
 *A Good Fool - Michael Seyer*
 
-I remember sitting together in that crowded room. Lights low, music softly playing from your computer. I wasn't doing much of anything, I never did when you were around. Back when I was recovering from myself you were my entire world, though I'm sure the feeling wasn't mutual. Just being there in your presence was enough, like sitting at a campfire or a warm stove. I'll always find happiness in those memories.
+I remember sitting together in that cramped room. Lights low, music softly playing from your computer. I wasn't doing much of anything, I never did when you were around. Back when I was recovering from myself you were my entire world, though I'm sure the feeling wasn't mutual. Just being there in your presence was enough, like sitting at a campfire or a warm stove. I'll always find happiness in those memories.
 
 *Trinity - Eartheater*
 
