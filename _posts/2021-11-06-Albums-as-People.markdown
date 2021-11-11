@@ -5,11 +5,14 @@ date: 2021-11-06 05:50:34 -0400
 author: "Victor J Perez III"
 categories: [nonfiction, music]
 image: "uglyassbear.jpeg"
+excerpt_separator: <!--more-->
 ---
 
 *A Good Fool - Michael Seyer*
 
 I remember sitting together in that cramped room. Lights low, music softly playing from your computer. I wasn't doing much of anything, I never did when you were around. Back when I was recovering from myself you were my entire world, though I'm sure the feeling wasn't mutual. Just being there in your presence was enough, like sitting at a campfire or a warm stove. I'll always find happiness in those memories.
+
+<!--more-->
 
 *Trinity - Eartheater*
 
