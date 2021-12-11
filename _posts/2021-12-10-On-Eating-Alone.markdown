@@ -15,9 +15,10 @@ Hate it when restaurants put you in the non-reservation side like an undesirable
 Anyways at the other fancy Mediterranean restaurant
 
 Might rant might not
+
  <!--more-->
 
-Something about tha portrait museum made me miss west virginia
+Something about the portrait museum made me miss West Virginia
 
 The simplicity of it all
 
@@ -33,9 +34,9 @@ Of running into people I knew but didn’t like
 
 There were too many people back then I didn’t like
 
-And the list increased and increased wile all the people I did like gradually left
+And the list increased and increased while all the people I did like gradually left
 
-Until all tat was left was the people I didn’t want to see
+Until all that was left was the people I didn’t want to see
 
 But I think I miss recognizing people
 
