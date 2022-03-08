@@ -9,18 +9,18 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 40px;
   border-top: 0.5px solid black;
   border-bottom: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a {
-  margin-top: 2.4%;
-  display: inline-block;
-  text-align: center;
   padding: 0% 3%;
-  font-size: 15px;
+  font-size: 14px;
   color: black;
   text-decoration: none;
   border-left: 0.5px solid black;
@@ -35,11 +35,9 @@ nav a:hover {
   transition: .1s;
 }
 nav a:nth-of-type(1) {
-  margin-top: 0;
   font-size: 0;
   font-style: italic;
   border-left: 0;
-  top: 5%;
   left: 10px;
   color: black;
   text-shadow: 1px 1px 0 rgb(0, 0, 0);
@@ -60,11 +58,11 @@ nav a:nth-of-type(1):hover {
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
-    nav a:nth-of-type(1) {
-    font-size: 0;
+  nav a{
+    font-size: 14px;
   }
-  nav a{ 
-    margin-top: 1%;
+   nav a:nth-of-type(1) {
+    display: none;
   }
 }
 
@@ -77,37 +75,27 @@ nav a:nth-of-type(1):hover {
   }
   nav a{
     padding: 0 3%;
-    margin-top: 1.2%;
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
-  nav a{ 
-    margin-top: 2%;
-  }
   nav a:nth-of-type(1) {
     font-size: 0;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
-  nav a{ 
-    margin-top: 1.7%;
-  }
   nav a:nth-of-type(1) {
-      top: 14%;
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 </style>
 <head>
   <nav>
-    <center>
     <a href=/writing/>Victor J Perez III</a>
 		<a href=/writing/>LATEST</a>
     <a href=/writing/topics.html>TOPICS</a>
     <a href=/writing/about.html>ABOUT</a>
     <a href="https://victorjperez.github.io/">PORTFOLIO</a>
-  </center>
 	</nav>
 	<title>Technological Waves and the Music Industry</title>
 </head>
@@ -187,7 +175,7 @@ Krukowski, Damon. “Making Cents.” Pitchfork, 14 Nov. 2012, pitchfork.com/fea
         <li class="post-preview">
           <div class="blogImage">
   <img src=/writing/assets/img/u92death.png />
-  <!-- <img src="http://localhost:4000//writing/assets/img/u92death.png"> -->
+  <!-- <img src="//writing/assets/img/u92death.png"> -->
   <a class="post-link" href="/writing/music/nonfiction/2019/09/03/On-U92-&-the-Slow-Death-of-College-Radio.html"
     >On U92 &amp; The Slow Death of College Radio</a
   >
@@ -202,19 +190,16 @@ Krukowski, Damon. “Making Cents.” Pitchfork, 14 Nov. 2012, pitchfork.com/fea
 <span class="post-meta"><u>Sep 3, 2019</u></span>
 <p><p>Written somewhere on the walls of U92’s DJ staff area is the phrase <em>“College radio is dying, friends are forever.”</em> While I regret to quote the person that uttered it, it remains an unfortunate reality that those in positions of power must confront. WWVU-FM is not an exception. Over one and a half years I associated myself with the station, I searched for a solution. There isn’t one.</p>
 </p>
-<p><a class="read-more" href="/writing/music/nonfiction/2019/09/03/On-U92-&-the-Slow-Death-of-College-Radio.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/music/nonfiction/2019/09/03/On-U92-&-the-Slow-Death-of-College-Radio.html">READ MORE</a>
         </li>
         
-      
-    
       
     
       
         <li class="post-preview">
           <div class="blogImage">
   <img src=/writing/assets/img/wireless.png />
-  <!-- <img src="http://localhost:4000//writing/assets/img/wireless.png"> -->
+  <!-- <img src="//writing/assets/img/wireless.png"> -->
   <a class="post-link" href="/writing/music/2019/08/21/Expoloring-Microgenres-Digital-Hardcore.html"
     >Exploring Microgenres: Digital Hardcore</a
   >
@@ -229,18 +214,9 @@ Krukowski, Damon. “Making Cents.” Pitchfork, 14 Nov. 2012, pitchfork.com/fea
 <span class="post-meta"><u>Aug 21, 2019</u></span>
 <p><p><em>This article was originally published for the Fall 2019 edition of WIRELESS, which can be found <a href="https://victorjperez.github.io/wireless">here</a></em></p>
 </p>
-<p><a class="read-more" href="/writing/music/2019/08/21/Expoloring-Microgenres-Digital-Hardcore.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/music/2019/08/21/Expoloring-Microgenres-Digital-Hardcore.html">READ MORE</a>
         </li>
         
-      
-    
-      
-    
-      
-    
-      
-    
       
     
       
@@ -272,7 +248,7 @@ Krukowski, Damon. “Making Cents.” Pitchfork, 14 Nov. 2012, pitchfork.com/fea
   </body>
   <footer>
   <hr />
-<p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p>
+<span class="footer-wrapper"><p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p> <a href=/writing/feed.xml>RSS</a></span>
 
   </footer>
 </html>

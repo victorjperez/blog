@@ -189,8 +189,16 @@ footer {
   hr {
     width: 99vw;
   }
-  p {
-    padding-left: 20px;
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    p {
+      padding-left: 20px;
+    }
+    a {
+      padding-right: 20px;
+    }
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
@@ -318,11 +326,11 @@ footer {
     }
   }
   .absolute-hr {
-    width: 99.8vw;
+    width: 100% -1px;
   }
   footer {
     hr {
-      width: 99.8vw;
+      width: 100% -1px;
     }
   }
 }
