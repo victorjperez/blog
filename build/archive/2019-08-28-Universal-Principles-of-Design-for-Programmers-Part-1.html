@@ -9,18 +9,18 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 40px;
   border-top: 0.5px solid black;
   border-bottom: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a {
-  margin-top: 2.4%;
-  display: inline-block;
-  text-align: center;
   padding: 0% 3%;
-  font-size: 15px;
+  font-size: 14px;
   color: black;
   text-decoration: none;
   border-left: 0.5px solid black;
@@ -35,11 +35,9 @@ nav a:hover {
   transition: .1s;
 }
 nav a:nth-of-type(1) {
-  margin-top: 0;
   font-size: 0;
   font-style: italic;
   border-left: 0;
-  top: 5%;
   left: 10px;
   color: black;
   text-shadow: 1px 1px 0 rgb(0, 0, 0);
@@ -60,11 +58,11 @@ nav a:nth-of-type(1):hover {
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
-    nav a:nth-of-type(1) {
-    font-size: 0;
+  nav a{
+    font-size: 14px;
   }
-  nav a{ 
-    margin-top: 1%;
+   nav a:nth-of-type(1) {
+    display: none;
   }
 }
 
@@ -77,37 +75,27 @@ nav a:nth-of-type(1):hover {
   }
   nav a{
     padding: 0 3%;
-    margin-top: 1.2%;
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
-  nav a{ 
-    margin-top: 2%;
-  }
   nav a:nth-of-type(1) {
     font-size: 0;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
-  nav a{ 
-    margin-top: 1.7%;
-  }
   nav a:nth-of-type(1) {
-      top: 14%;
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 </style>
 <head>
   <nav>
-    <center>
     <a href=/writing/>Victor J Perez III</a>
 		<a href=/writing/>LATEST</a>
     <a href=/writing/topics.html>TOPICS</a>
     <a href=/writing/about.html>ABOUT</a>
     <a href="https://victorjperez.github.io/">PORTFOLIO</a>
-  </center>
 	</nav>
 	<title>Universal Principles of Design for Programmers: Part 1</title>
 </head>
@@ -239,20 +227,9 @@ nav a:nth-of-type(1):hover {
 <span class="post-meta"><u>Jan 19, 2022</u></span>
 <p><p>The infamous <a href="https://news.ycombinator.com/">Hacker News</a>. It’s rss-like tech news aggregation format and community of software engineers, project managers, and other tech-adjacent commenters offers an experience lacking in most social media platforms. In some cases your browsing experience can leave you with some rare insight from a hardened industry veteran. More often than not, you end up reading some of the most insane takes from the dumbest smart people you could ever imagine.</p>
 </p>
-<p><a class="read-more" href="/writing/tech/2022/01/19/On-Hacker-News-and-Looping.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/tech/2022/01/19/On-Hacker-News-and-Looping.html">READ MORE</a>
         </li>
         
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
       
     
       
@@ -306,7 +283,7 @@ nav a:nth-of-type(1):hover {
   </body>
   <footer>
   <hr />
-<p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p>
+<span class="footer-wrapper"><p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p> <a href=/writing/feed.xml>RSS</a></span>
 
   </footer>
 </html>
