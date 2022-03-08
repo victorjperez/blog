@@ -9,18 +9,18 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 40px;
   border-top: 0.5px solid black;
   border-bottom: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a {
-  margin-top: 2.4%;
-  display: inline-block;
-  text-align: center;
   padding: 0% 3%;
-  font-size: 15px;
+  font-size: 14px;
   color: black;
   text-decoration: none;
   border-left: 0.5px solid black;
@@ -35,11 +35,9 @@ nav a:hover {
   transition: .1s;
 }
 nav a:nth-of-type(1) {
-  margin-top: 0;
   font-size: 0;
   font-style: italic;
   border-left: 0;
-  top: 5%;
   left: 10px;
   color: black;
   text-shadow: 1px 1px 0 rgb(0, 0, 0);
@@ -60,11 +58,11 @@ nav a:nth-of-type(1):hover {
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
-    nav a:nth-of-type(1) {
-    font-size: 0;
+  nav a{
+    font-size: 14px;
   }
-  nav a{ 
-    margin-top: 1%;
+   nav a:nth-of-type(1) {
+    display: none;
   }
 }
 
@@ -77,37 +75,27 @@ nav a:nth-of-type(1):hover {
   }
   nav a{
     padding: 0 3%;
-    margin-top: 1.2%;
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
-  nav a{ 
-    margin-top: 2%;
-  }
   nav a:nth-of-type(1) {
     font-size: 0;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
-  nav a{ 
-    margin-top: 1.7%;
-  }
   nav a:nth-of-type(1) {
-      top: 14%;
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 </style>
 <head>
   <nav>
-    <center>
     <a href=/writing/>Victor J Perez III</a>
 		<a href=/writing/>LATEST</a>
     <a href=/writing/topics.html>TOPICS</a>
     <a href=/writing/about.html>ABOUT</a>
     <a href="https://victorjperez.github.io/">PORTFOLIO</a>
-  </center>
 	</nav>
 	<title>On Hacker News and Looping</title>
 </head>
@@ -200,39 +188,6 @@ nav a:nth-of-type(1):hover {
       
     
       
-        <li class="post-preview">
-          <div class="blogImage">
-  <img src=/writing/assets/img/UPDFP_1.png />
-  <!-- <img src="//writing/assets/img/UPDFP_1.png"> -->
-  <a class="post-link" href="/writing/tech/2019/08/28/Universal-Principles-of-Design-for-Programmers-Part-1.html"
-    >Universal Principles of Design for Programmers: Part 1</a
-  >
-  <p class="post-categories">
-    <a href="/writing/topic/tech"
-      >tech</a
-    >
-  </p>
-</div>
-
-
-<span class="post-meta"><u>Aug 28, 2019</u></span>
-<p><p>During my third year of studying Computer Science, I wanted to vary up my schedule and add an English class to mix things up. I ended up taking Multimedia Writing, an upper-level English class intended for writers and designers. Despite being unnecessary for my degree, that class ended up being an incredibly valuable learning experience for me.</p>
-</p>
-<p><a class="read-more" href="/writing/tech/2019/08/28/Universal-Principles-of-Design-for-Programmers-Part-1.html">READ MORE</a></p>
-
-        </li>
-        
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
     
       
     
@@ -263,7 +218,7 @@ nav a:nth-of-type(1):hover {
   </body>
   <footer>
   <hr />
-<p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p>
+<span class="footer-wrapper"><p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p> <a href=/writing/feed.xml>RSS</a></span>
 
   </footer>
 </html>

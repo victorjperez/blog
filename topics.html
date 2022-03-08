@@ -9,18 +9,18 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 40px;
   border-top: 0.5px solid black;
   border-bottom: 0.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a {
-  margin-top: 2.4%;
-  display: inline-block;
-  text-align: center;
   padding: 0% 3%;
-  font-size: 15px;
+  font-size: 14px;
   color: black;
   text-decoration: none;
   border-left: 0.5px solid black;
@@ -35,11 +35,9 @@ nav a:hover {
   transition: .1s;
 }
 nav a:nth-of-type(1) {
-  margin-top: 0;
   font-size: 0;
   font-style: italic;
   border-left: 0;
-  top: 5%;
   left: 10px;
   color: black;
   text-shadow: 1px 1px 0 rgb(0, 0, 0);
@@ -60,11 +58,11 @@ nav a:nth-of-type(1):hover {
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 900px) {
-    nav a:nth-of-type(1) {
-    font-size: 0;
+  nav a{
+    font-size: 14px;
   }
-  nav a{ 
-    margin-top: 1%;
+   nav a:nth-of-type(1) {
+    display: none;
   }
 }
 
@@ -77,37 +75,27 @@ nav a:nth-of-type(1):hover {
   }
   nav a{
     padding: 0 3%;
-    margin-top: 1.2%;
     font-size: 20px;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1000px) {
-  nav a{ 
-    margin-top: 2%;
-  }
   nav a:nth-of-type(1) {
     font-size: 0;
   }
 }
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
-  nav a{ 
-    margin-top: 1.7%;
-  }
   nav a:nth-of-type(1) {
-      top: 14%;
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 </style>
 <head>
   <nav>
-    <center>
     <a href=/writing/>Victor J Perez III</a>
 		<a href=/writing/>LATEST</a>
     <a href=/writing/topics.html>TOPICS</a>
     <a href=/writing/about.html>ABOUT</a>
     <a href="https://victorjperez.github.io/">PORTFOLIO</a>
-  </center>
 	</nav>
 	<title>Victor J Perez III</title>
 </head>
@@ -149,8 +137,7 @@ nav a:nth-of-type(1):hover {
 <p>Might rant might not</p>
 
 </p>
-<p><a class="read-more" href="/writing/nonfiction/2021/12/10/On-Eating-Alone.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/2021/12/10/On-Eating-Alone.html">READ MORE</a>
     </li>
      
     <li class="post-preview">
@@ -174,8 +161,7 @@ nav a:nth-of-type(1):hover {
 <p>I remember sitting together in that cramped room. Lights low, music softly playing from your computer. I wasn’t doing much of anything, I never did when you were around. Back when I was recovering from myself you were my entire world, though I’m sure the feeling wasn’t mutual. Just being there in your presence was enough, like sitting at a campfire or a warm stove. I’ll always find happiness in those memories.</p>
 
 </p>
-<p><a class="read-more" href="/writing/nonfiction/music/2021/11/06/Albums-as-People-copy.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/music/2021/11/06/Albums-as-People-copy.html">READ MORE</a>
     </li>
      
     <li class="post-preview">
@@ -196,8 +182,7 @@ nav a:nth-of-type(1):hover {
 <span class="post-meta"><u>Oct 5, 2021</u></span>
 <p><p>I was going to go on a whole spiel about this quote and how lifechanging/etc it was but I feel like that misses the point so I’ll leave it here so I won’t forget it:</p>
 </p>
-<p><a class="read-more" href="/writing/nonfiction/satire/2021/10/05/Fran-Lebowitz-on-Writing.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/satire/2021/10/05/Fran-Lebowitz-on-Writing.html">READ MORE</a>
     </li>
       
     <a class="see-more" href="/writing/topic/nonfiction">
@@ -230,30 +215,7 @@ nav a:nth-of-type(1):hover {
 <span class="post-meta"><u>Jan 19, 2022</u></span>
 <p><p>The infamous <a href="https://news.ycombinator.com/">Hacker News</a>. It’s rss-like tech news aggregation format and community of software engineers, project managers, and other tech-adjacent commenters offers an experience lacking in most social media platforms. In some cases your browsing experience can leave you with some rare insight from a hardened industry veteran. More often than not, you end up reading some of the most insane takes from the dumbest smart people you could ever imagine.</p>
 </p>
-<p><a class="read-more" href="/writing/tech/2022/01/19/On-Hacker-News-and-Looping.html">READ MORE</a></p>
-
-    </li>
-     
-    <li class="post-preview">
-      <div class="blogImage">
-  <img src=/writing/assets/img/UPDFP_1.png />
-  <!-- <img src="//writing/assets/img/UPDFP_1.png"> -->
-  <a class="post-link" href="/writing/tech/2019/08/28/Universal-Principles-of-Design-for-Programmers-Part-1.html"
-    >Universal Principles of Design for Programmers: Part 1</a
-  >
-  <p class="post-categories">
-    <a href="/writing/topic/tech"
-      >tech</a
-    >
-  </p>
-</div>
-
-
-<span class="post-meta"><u>Aug 28, 2019</u></span>
-<p><p>During my third year of studying Computer Science, I wanted to vary up my schedule and add an English class to mix things up. I ended up taking Multimedia Writing, an upper-level English class intended for writers and designers. Despite being unnecessary for my degree, that class ended up being an incredibly valuable learning experience for me.</p>
-</p>
-<p><a class="read-more" href="/writing/tech/2019/08/28/Universal-Principles-of-Design-for-Programmers-Part-1.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/tech/2022/01/19/On-Hacker-News-and-Looping.html">READ MORE</a>
     </li>
      
     <li class="post-preview">
@@ -274,13 +236,29 @@ nav a:nth-of-type(1):hover {
 <span class="post-meta"><u>Mar 30, 2018</u></span>
 <p><p>As I’ve become more and more experienced as a programmer, one thing has abundantly clear: the less time you spend writing code, the better. Much like writing a book, if you just hop on your computer and start typing, you’ll eventually find yourself tangled in your own work, making something that is more or less impossible to work with. If you chose to continue working on the same poor foundation, more and more time will be spent dedicated to solving problems that you caused, that could have easily been prevent. It is because of this that the majority of my time is spent carefully deciphering what the problem is and planning out how I will solve it.</p>
 </p>
-<p><a class="read-more" href="/writing/nonfiction/tech/2018/03/30/paper-code.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/tech/2018/03/30/paper-code.html">READ MORE</a>
     </li>
-      
-    <a class="see-more" href="/writing/topic/tech">
-      <p>MORE ON tech ⟶</p></a
+     
+    <li class="post-preview">
+      <div class="blogImage">
+  <img src=/writing/assets/img/computerscience.jpg />
+  <!-- <img src="//writing/assets/img/computerscience.jpg"> -->
+  <a class="post-link" href="/writing/music/tech/2017/11/05/Technological-Waves-and-the-Music-Industry.html"
+    >Technological Waves and the Music Industry</a
+  >
+  <p class="post-categories">
+    <a href="/writing/topic/music"
+      >music</a
     >
+  </p>
+</div>
+
+
+<span class="post-meta"><u>Nov 5, 2017</u></span>
+<p><p>NO MATTER THE INDUSTRY, technology has brought large changes to how things in our society function. The lightning fast pace of technology has hit the music industry in full force, and brought huge change with it. One of the biggest changes has been the introduction of web-based music streaming, where fans can access a huge and growing library of music for a small monthly fee, or even for free with advertisements. This is hugely different from how things worked in the past, where you would need to pay $10 per album in order to listen on demand. Now for around $10 a month, you can access a huge and ever-growing library of music. This is a huge boon for music enthusiasts and general consumers, but what about the artists? How do they make up for the lost revenue? Who eats the loss when it comes to the greatest deal in music? The answer is; eventually everyone. Music streaming services such as Spotify and Apple Music are a net negative on the music industry as a whole, and are not sustainable in the long term.</p>
+</p>
+<a class="read-more" href="/writing/music/tech/2017/11/05/Technological-Waves-and-the-Music-Industry.html">READ MORE</a>
+    </li>
     
   </ul>
 </div>
@@ -311,8 +289,7 @@ nav a:nth-of-type(1):hover {
 <p>I remember sitting together in that cramped room. Lights low, music softly playing from your computer. I wasn’t doing much of anything, I never did when you were around. Back when I was recovering from myself you were my entire world, though I’m sure the feeling wasn’t mutual. Just being there in your presence was enough, like sitting at a campfire or a warm stove. I’ll always find happiness in those memories.</p>
 
 </p>
-<p><a class="read-more" href="/writing/nonfiction/music/2021/11/06/Albums-as-People-copy.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/music/2021/11/06/Albums-as-People-copy.html">READ MORE</a>
     </li>
      
     <li class="post-preview">
@@ -338,8 +315,7 @@ nav a:nth-of-type(1):hover {
 <p>I remember looking through the cold, empty room. Posters plastered the walls, and stickers lined the desks. I scanned through documents and browsed through files, looking for anything of interest on the events that transpired before my arrival. Amongst the mess, I found packets of macaroni and cheese, a pair of panties, and signs of a herculean effort to keep a college radio station running to the best of its ability. There was a constant effort to keep the dying art of radio alive, and eventually it all came crashing down.</p>
 
 </p>
-<p><a class="read-more" href="/writing/nonfiction/music/2019/11/12/Sisyphus.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/music/2019/11/12/Sisyphus.html">READ MORE</a>
     </li>
      
     <li class="post-preview">
@@ -360,8 +336,7 @@ nav a:nth-of-type(1):hover {
 <span class="post-meta"><u>Sep 3, 2019</u></span>
 <p><p>Written somewhere on the walls of U92’s DJ staff area is the phrase <em>“College radio is dying, friends are forever.”</em> While I regret to quote the person that uttered it, it remains an unfortunate reality that those in positions of power must confront. WWVU-FM is not an exception. Over one and a half years I associated myself with the station, I searched for a solution. There isn’t one.</p>
 </p>
-<p><a class="read-more" href="/writing/music/nonfiction/2019/09/03/On-U92-&-the-Slow-Death-of-College-Radio.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/music/nonfiction/2019/09/03/On-U92-&-the-Slow-Death-of-College-Radio.html">READ MORE</a>
     </li>
       
     <a class="see-more" href="/writing/topic/music">
@@ -397,94 +372,8 @@ nav a:nth-of-type(1):hover {
 <p>To write creative nonfiction is to let yourself be vulnerable. You lay bare scars that are otherwise invisible, bring out painful memories that would rather be forgotten. Fashion, conversely, focuses on exclusivity and subtly. Fashion exists to hide and act while communicating silently, if at all. As such, finding creative nonfiction on the topic of fashion is nontrivial, and I spent a lot of time searching until I found myself on the homepage of <em>Vestoj.com</em>. The design stood out to me from traditional fashion related websites: it had a simple, ad-free layout. There was a large focus on the text with sparse yet impactful photography, and every article had a diverse set of sources.</p>
 
 </p>
-<p><a class="read-more" href="/writing/nonfiction/fashion/2019/11/12/On-Vestoj.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/fashion/2019/11/12/On-Vestoj.html">READ MORE</a>
     </li>
-    
-  </ul>
-</div>
-
-<h2><a href="/writing/topic/early works">early works</a></h2>
-<hr width="200" />
-<div class="topic">
-  <ul class="post-list">
-      
-    <li class="post-preview">
-      <div class="blogImage">
-  <img src=/writing/assets/img/archive.jpg />
-  <!-- <img src="//writing/assets/img/archive.jpg"> -->
-  <a class="post-link" href="/writing/early%20works/tech/satire/2014/02/14/privacy-and-propaganda.html"
-    >Privacy and Propaganda</a
-  >
-  <p class="post-categories">
-    <a href="/writing/topic/early works"
-      >early works</a
-    >
-  </p>
-</div>
-
-
-<span class="post-meta"><u>Feb 14, 2014</u></span>
-<p><p><strong><em>the following piece is a work from early on in my writing career. It remains largely unedited (since the published date), and largely not fact checked. Published date is an approximation</em></strong></p>
-
-<p>The issue of privacy in the United States has recently been a very important one, and an issue that many journalists in the world want to get their filthy paws on.</p>
-</p>
-<p><a class="read-more" href="/writing/early%20works/tech/satire/2014/02/14/privacy-and-propaganda.html">READ MORE</a></p>
-
-    </li>
-     
-    <li class="post-preview">
-      <div class="blogImage">
-  <img src=/writing/assets/img/archive.jpg />
-  <!-- <img src="//writing/assets/img/archive.jpg"> -->
-  <a class="post-link" href="/writing/early%20works/video%20games/2014/02/09/dota-2-essay.html"
-    >Dota 2 Essay</a
-  >
-  <p class="post-categories">
-    <a href="/writing/topic/early works"
-      >early works</a
-    >
-  </p>
-</div>
-
-
-<span class="post-meta"><u>Feb 9, 2014</u></span>
-<p><p><strong><em>the following piece is a work from early on in my writing career. It remains largely unedited (since the published date), and largely not fact checked. Published date is an approximation</em></strong></p>
-
-<p>One day in Seattle Washington, two teams were set to compete for the 2.7 million dollar prize pool in Benaroya Hall. The vast crowd of adoring fans were preemptively waiting for the biggest sporting event they would ever experience in their entire lives, but this was no ordinary sporting event. The two teams were not competing for goals, nor were they competing for touchdowns or even baskets. Each teams’ only aim was to destroy the enemy teams’ ancient, in the third Dota 2 international tournament.</p>
-</p>
-<p><a class="read-more" href="/writing/early%20works/video%20games/2014/02/09/dota-2-essay.html">READ MORE</a></p>
-
-    </li>
-     
-    <li class="post-preview">
-      <div class="blogImage">
-  <img src=/writing/assets/img/archive.jpg />
-  <!-- <img src="//writing/assets/img/archive.jpg"> -->
-  <a class="post-link" href="/writing/early%20works/music/2012/10/19/Review-The-Crying-Light.html"
-    >Review: The Crying Light</a
-  >
-  <p class="post-categories">
-    <a href="/writing/topic/early works"
-      >early works</a
-    >
-  </p>
-</div>
-
-
-<span class="post-meta"><u>Oct 19, 2012</u></span>
-<p><p><strong><em>the following piece is a work from early on in my writing career. It remains largely unedited (since the published date), and largely not fact checked. Published date is an approximation</em></strong></p>
-
-<p>An extraordinarily emotional and classical album, The Crying Light by Antony &amp; The Johnsons seems to recreate several feelings in one fell swoop.</p>
-
-</p>
-<p><a class="read-more" href="/writing/early%20works/music/2012/10/19/Review-The-Crying-Light.html">READ MORE</a></p>
-
-    </li>
-      
-    <a class="see-more" href="/writing/topic/early works">
-      <p>MORE ON early works ⟶</p></a
-    >
     
   </ul>
 </div>
@@ -512,64 +401,7 @@ nav a:nth-of-type(1):hover {
 <span class="post-meta"><u>Oct 5, 2021</u></span>
 <p><p>I was going to go on a whole spiel about this quote and how lifechanging/etc it was but I feel like that misses the point so I’ll leave it here so I won’t forget it:</p>
 </p>
-<p><a class="read-more" href="/writing/nonfiction/satire/2021/10/05/Fran-Lebowitz-on-Writing.html">READ MORE</a></p>
-
-    </li>
-     
-    <li class="post-preview">
-      <div class="blogImage">
-  <img src=/writing/assets/img/archive.jpg />
-  <!-- <img src="//writing/assets/img/archive.jpg"> -->
-  <a class="post-link" href="/writing/early%20works/tech/satire/2014/02/14/privacy-and-propaganda.html"
-    >Privacy and Propaganda</a
-  >
-  <p class="post-categories">
-    <a href="/writing/topic/early works"
-      >early works</a
-    >
-  </p>
-</div>
-
-
-<span class="post-meta"><u>Feb 14, 2014</u></span>
-<p><p><strong><em>the following piece is a work from early on in my writing career. It remains largely unedited (since the published date), and largely not fact checked. Published date is an approximation</em></strong></p>
-
-<p>The issue of privacy in the United States has recently been a very important one, and an issue that many journalists in the world want to get their filthy paws on.</p>
-</p>
-<p><a class="read-more" href="/writing/early%20works/tech/satire/2014/02/14/privacy-and-propaganda.html">READ MORE</a></p>
-
-    </li>
-    
-  </ul>
-</div>
-
-<h2><a href="/writing/topic/video games">video games</a></h2>
-<hr width="200" />
-<div class="topic">
-  <ul class="post-list">
-      
-    <li class="post-preview">
-      <div class="blogImage">
-  <img src=/writing/assets/img/archive.jpg />
-  <!-- <img src="//writing/assets/img/archive.jpg"> -->
-  <a class="post-link" href="/writing/early%20works/video%20games/2014/02/09/dota-2-essay.html"
-    >Dota 2 Essay</a
-  >
-  <p class="post-categories">
-    <a href="/writing/topic/early works"
-      >early works</a
-    >
-  </p>
-</div>
-
-
-<span class="post-meta"><u>Feb 9, 2014</u></span>
-<p><p><strong><em>the following piece is a work from early on in my writing career. It remains largely unedited (since the published date), and largely not fact checked. Published date is an approximation</em></strong></p>
-
-<p>One day in Seattle Washington, two teams were set to compete for the 2.7 million dollar prize pool in Benaroya Hall. The vast crowd of adoring fans were preemptively waiting for the biggest sporting event they would ever experience in their entire lives, but this was no ordinary sporting event. The two teams were not competing for goals, nor were they competing for touchdowns or even baskets. Each teams’ only aim was to destroy the enemy teams’ ancient, in the third Dota 2 international tournament.</p>
-</p>
-<p><a class="read-more" href="/writing/early%20works/video%20games/2014/02/09/dota-2-essay.html">READ MORE</a></p>
-
+<a class="read-more" href="/writing/nonfiction/satire/2021/10/05/Fran-Lebowitz-on-Writing.html">READ MORE</a>
     </li>
     
   </ul>
@@ -581,7 +413,7 @@ nav a:nth-of-type(1):hover {
   </body>
   <footer>
   <hr />
-<p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p>
+<span class="footer-wrapper"><p>© 2021 Victor J Perez III - Writings. All Rights Reserved.</p> <a href=/writing/feed.xml>RSS</a></span>
 
   </footer>
 </html>
