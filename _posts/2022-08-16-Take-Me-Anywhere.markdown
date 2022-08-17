@@ -1,7 +1,7 @@
 ---
 layout: Page
 title: "Take Me Anywhere"
-date: 2022-10-16 22:13:34 -0400
+date: 2022-08-16 22:13:34 -0400
 author: "Victor J Perez III"
 categories: [nonfiction]
 image: "cheat.jpeg"
@@ -9,8 +9,8 @@ excerpt_separator: <!--more-->
 ---
 
 Around one year ago I left Morgantown, West Virginia. The amount of people in that town I told about my departure was in the single digits, and on the day of the move only one thought was present: "I cannot be seen." That attitude defined my return from Washington, DC. I flew into town on an eight person plane the day of the event, and left on that same plane early the next morning. No time was left for wandering the streets of my Alma mater, or loitering in the same coffee shops I used to. Similar to my departure, very few knew of my return, only those at the event itself- a bridal shower and going away party for a close friend of mine. 
-
- It made sense that the theme of said party was "afternoon tea," as Madeleine was leaving for grad school in England. Looking around the small West Virginian winery, I eyed up the tiny sandwiches and cakes prepared by her parents. Remembering the Friday nights I spent waiting tables at their restaurant and drinking on the stoop. I had never been to this particular venue before, and it was distant from my former life- though the ever-present mountains remained a familiar landmark. While waiting for the event to formally start, I was particularly exhausted from a party in my "new life" from the night before. That and the colonial setting made me feel slightly delirious given that I had the darkest skin at the venue, a common occurrence in West Virginia. Surrounding me were distant family members who treated the event more as a bridal shower and less like a going away party.
+ <!--more-->
+It made sense that the theme of said party was "afternoon tea," as Madeleine was leaving for grad school in England. Looking around the small West Virginian winery, I eyed up the tiny sandwiches and cakes prepared by her parents. Remembering the Friday nights I spent waiting tables at their restaurant and drinking on the stoop. I had never been to this particular venue before, and it was distant from my former life- though the ever-present mountains remained a familiar landmark. While waiting for the event to formally start, I was particularly exhausted from a party in my "new life" from the night before. That and the colonial setting made me feel slightly delirious given that I had the darkest skin at the venue, a common occurrence in West Virginia. Surrounding me were distant family members who treated the event more as a bridal shower and less like a going away party.
 
 Eventually our friends stumbled into the patio, similarly experiencing shades of delirium from the setting and attendees. Coming down from Pittsburgh was not a frequent experience for them, though they had old roots in this decaying state. For those that hadn't visited me in Washington, it had been over a year since seeing or even speaking to them. When most people think of seeing old friends, they think of a celebratory and joyous moment, a return to the good old times. But our reality was different- too much time had passed. Some of us had changed more than others, and our lives were no longer intertwined as they once were. Awkward tensions arose from unfinished business, and the sea of unfamiliar faces gave a cold edge.
 
