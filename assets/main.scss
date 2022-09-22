@@ -74,7 +74,11 @@ h3 {
 .post-content {
   text-align: left;
   margin-bottom: 25px;
-  padding: 0 10px;
+  padding: 0 10px 32px 10px;
+}
+blockquote {
+  border-left: 1px solid black;
+  padding-left: 16px;
 }
 .post-image {
   max-width: 60%;
@@ -263,8 +267,10 @@ footer {
     max-width: 75%;
   }
   .post-content {
-    max-width: 50%;
+    width: 50%;
+    min-width: 540px;
     margin: 0 auto;
+    padding-bottom: 64px;
   }
   .post-list {
     display: flex;

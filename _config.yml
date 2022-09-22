@@ -31,7 +31,7 @@ destination: ./build
 theme: minima
 paginate: 7
 paginate_path: "/latest/page:num/"
-topics: [nonfiction, tech, music, fashion, satire]
+topics: [nonfiction, tech, music, fashion, literature, satire]
 plugins:
   - jekyll-feed
   - jekyll-paginate
