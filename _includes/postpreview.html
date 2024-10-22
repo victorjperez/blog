@@ -1,17 +1,12 @@
 <div class="blogImage">
-  <img src={{ "/assets/img/" | relative_url }}{{ post.image }} />
-  <!-- <img src="{{ site.url }}/{{ site.baseurl }}/assets/img/{{ post.image }}"> -->
-  <a class="post-link" href="{{ post.url | relative_url }}"
-    >{{ post.title | escape }}</a
-  >
+  <img src={{ "/assets/img/" | relative_url }}{{ post.image }} role="presentation" />
+  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
   <p class="post-categories">
-    <a href="{{ site.baseurl }}/topic/{{ post.categories[0] }}"
-      >{{ post.categories[0] }}</a
-    >
+    <a href="{{ site.baseurl }}/topic/{{ post.categories[0] }}">{{ post.categories[0] }}</a>
   </p>
 </div>
 
 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-<span class="post-meta"><u>{{ post.date | date: date_format }}</u></span>
+<span class="post-meta">{{ post.date | date: date_format }}</span>
 <p>{{ post.excerpt }}</p>
 <a class="read-more" href="{{ post.url | relative_url }}">READ MORE</a>

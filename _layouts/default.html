@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 <link href={{"/assets/main.css" | relative_url }} rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-  {% include head.html %}
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+{% include head.html %}
 
-  <body>
-    <main class="page">
-        {{ content }}
-    </main>
+<body>
+  <main class="page">
+    {{ content }}
+  </main>
 
-  </body>
-  <footer>
+</body>
+<footer>
   {% include footer.html %}
-  </footer>
+</footer>
+
 </html>

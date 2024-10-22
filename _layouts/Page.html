@@ -4,38 +4,37 @@ layout: default
 
 <article class="page">
   <header class="titleBlock">
-    <h2>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h2>By {{ page.author }}</h3>
+
+    <hr width="200" />
+    <img src={{ "/assets/img/" | relative_url }}{{ page.image }} class="post-image" role="presentation" />
+    <h3>
       {% for topic in page.categories %}
       <a href="{{ site.baseurl }}/topic/{{ topic }}"> {{ topic }}</a>
       {% if page.categories.size > 1 %} {% unless forloop.index ==
       page.categories.size %}, {% endunless %} {% endif %} {% endfor %}
-    </h2>
-
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-    <h3>By {{ page.author }}</h3>
-
-    <hr width="200" />
-    <img src={{ "/assets/img/" | relative_url }}{{ page.image }}
-    class="post-image"/>
-    <h3><u> {{ page.date | date: "%B %d, %Y" }}</u></h3>
+    </h23>
+    <h4><b>{{ page.date | date: "%B %d, %Y" }}</b></h3>
+      
   </header>
   <div class="post-content">
     {{ content }}
   </div>
-</div>
+  </div>
 </article>
-<hr class="absolute-hr" >
+<hr class="absolute-hr">
 <div class="related-posts">
   <h2 class="h2-with-absolute-hr">Latest on {{ page.categories[0] }}</h2>
   {% assign postCount = 1 %}
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.categories[0] == page.categories[0] and postCount <= 3 and page.title != post.title %}
-        <li class="post-preview">
-          {% include postpreview.html %}
-        </li>
-        {% assign postCount = postCount | plus:1 %}
+    {% if post.categories[0] == page.categories[0] and postCount <= 3 and page.title !=post.title %} <li
+      class="post-preview">
+      {% include postpreview.html %}
+      </li>
+      {% assign postCount = postCount | plus:1 %}
       {% endif %}
-    {% endfor %}
+      {% endfor %}
   </ul>
 </div>
