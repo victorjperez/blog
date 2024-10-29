@@ -28,7 +28,7 @@ twitter_username: none
 github_username: victorjperez
 destination: ./build
 # Build settings
-theme: minima
+# theme: minima
 paginate: 7
 paginate_path: "/latest/page:num/"
 topics: [nonfiction, tech, music, fashion, literature, satire]
