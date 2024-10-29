@@ -21,8 +21,8 @@ There isn’t an easy way to solve the current problem that the music industry h
 
 <center>Works Cited</center>
 <br>
-Krukowski, Damon. “Making Cents.” Pitchfork, 14 Nov. 2012, pitchfork.com/features/article/8993-the-cloud/. Accessed 15 Sept. 2017.
+Krukowski, Damon. "Making Cents.” Pitchfork, 14 Nov. 2012, pitchfork.com/features/article/8993-the-cloud/. Accessed 15 Sept. 2017.
 
-Naveed, Kashif, et al. “Co-Evolution between streaming and live music leads a way to the sustainable growth of music industry – Lessons from the US experiences.” Technology in Society, vol. 50, 2017, pp. 1–19., doi:10.1016/j.techsoc.2017.03.005.
+Naveed, Kashif, et al. "Co-Evolution between streaming and live music leads a way to the sustainable growth of music industry – Lessons from the US experiences.” Technology in Society, vol. 50, 2017, pp. 1–19., doi:10.1016/j.techsoc.2017.03.005.
 
-Wlömert, Nils, and Dominik Papies. “On-Demand streaming services and music industry revenues — Insights from Spotify’s market entry.” International Journal of Research in Marketing, vol. 33, no. 2, 2016, pp. 314–327., doi:10.1016/j.ijresmar.2015.11.002.
+Wlömert, Nils, and Dominik Papies. "On-Demand streaming services and music industry revenues — Insights from Spotify’s market entry.” International Journal of Research in Marketing, vol. 33, no. 2, 2016, pp. 314–327., doi:10.1016/j.ijresmar.2015.11.002.

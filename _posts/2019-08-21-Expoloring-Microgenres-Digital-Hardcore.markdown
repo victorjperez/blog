@@ -11,12 +11,12 @@ _This article was originally published for the Fall 2019 edition of WIRELESS, wh
 
 It can be argued that we are currently living in the era most accessible for electronic music. Anyone with access to a computer has an incredibly wide selection of free and paid digital audio workstations, alongside a plethora of other music production tools. With this has come an explosion of hard-to-categorize music that transcends traditional genres.
 
-With all that being said, It’s not enough to just say an artist produces “electronic” music. Even subgenres like techno and jungle have loose definitions that are often subverted by masters of the craft. Nonetheless, music fans and pundits insist on creating very specific categorizations, and electronic music is often broken down into what is essentially microgenres. In this
+With all that being said, It’s not enough to just say an artist produces "electronic” music. Even subgenres like techno and jungle have loose definitions that are often subverted by masters of the craft. Nonetheless, music fans and pundits insist on creating very specific categorizations, and electronic music is often broken down into what is essentially microgenres. In this
 scenario we’ll be looking specifically at Digital Hardcore.
 
 The term digital hardcore was coined in the 1992 by Alec Empire of Atari Teenage Riot, the pioneer of the genre. He went on to form the label Digital Hardcore Records, which specialized in artists of the genre. Unfortunately the scene reamains small, much like other electronic microgenres such as witch house or vaporwave.
 
-So what exactly is Digital Hardcore? For the most part, it can be considered a fusion of many different genres: techno, noise, drum and bass, breakbeat and hardcore punk. The end result is music that is especially fast, abrasive and angry. Occasionally it will make use of “traditional” punk instruments such as electric guitars , alongside synthesizers and drum machines.
+So what exactly is Digital Hardcore? For the most part, it can be considered a fusion of many different genres: techno, noise, drum and bass, breakbeat and hardcore punk. The end result is music that is especially fast, abrasive and angry. Occasionally it will make use of "traditional” punk instruments such as electric guitars , alongside synthesizers and drum machines.
 
 Lyrically, there isn’t as clear of a theme in the genre. From a historical point of view, bands such as Alec Empire used many left-wing or anarchist ideals in their lyrics. While occasionally these will come up in other artist’s music, it’s certainly a less prominent feature of the genre. Despite losing the theme the genre used to have, the vocals are still typically screamed and shouted, with a powerful manic energy unmatched in other electronic genres.
 
